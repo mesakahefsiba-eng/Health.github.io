@@ -34,19 +34,22 @@ body {
 .header {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 16px;
     margin-bottom: 25px;
 }
 
 .logo {
-    width: 120px;
-    height: 80px;
-    min-width: 120px;
+    width: 92px;
+    height: 92px;
+    min-width: 92px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: transparent;
-    border-radius: 16px;
+    background: #edf9ff;
+    border: 2px solid #d9f1ff;
+    border-radius: 18px;
+    padding: 8px;
+    box-shadow: 0 4px 10px rgba(8, 126, 139, 0.12);
 }
 
 .logo img {
@@ -356,6 +359,17 @@ button:hover {
 
     h1 {
         font-size: 22px;
+    }
+
+    .header {
+        gap: 12px;
+    }
+
+    .logo {
+        width: 72px;
+        height: 72px;
+        min-width: 72px;
+        padding: 6px;
     }
 
     .header h2 {
